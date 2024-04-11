@@ -1,9 +1,11 @@
-import { Outlet } from "react-router-dom";
+import { useParams} from "react-router-dom";
 
 function Meeting() {
+  let { meetingId } = useParams();
+
   return (
     <>
-      Test Meeting
+      {`Meeting #: ${meetingId}`}
     </>
   )
 }
