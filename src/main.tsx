@@ -45,6 +45,9 @@ const router = createBrowserRouter(
   { basename: import.meta.env.BASE_URL }
 );
 
+// document.body.style.backgroundColor = `${dark.bgColor}`;
+document.body.classList.add('bg-dark-2');
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
