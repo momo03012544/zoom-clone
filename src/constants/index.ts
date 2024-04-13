@@ -13,11 +13,13 @@ export const sidebarLinks = [
     label: 'Previous',
     route: '/previous',
     imgUrl: '',
-  },  {
+  },
+  {
     label: 'Recordings',
     route: '/recordings',
     imgUrl: '',
-  },  {
+  },
+  {
     label: 'Personal Room',
     route: '/personal-room',
     imgUrl: '',
